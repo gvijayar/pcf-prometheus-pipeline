@@ -23,6 +23,8 @@ grafana_admin_password:
 prometheus_admin_password:
 # This will be the admin password to log in to Alertmanager GUI
 alertmanager_password:
+# This is the alertmanager mesh password
+alertmanager_mesh_password:
 
 # AZ(s) to deploy to (as defined in the Director configuration)
 deploy_azs: [europe-west1-d]
