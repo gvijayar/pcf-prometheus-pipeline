@@ -25,6 +25,10 @@ prometheus_admin_password:
 alertmanager_password:
 # This is the alertmanager mesh password
 alertmanager_mesh_password:
+# This is the postgres grafana password
+postgres_grafana_password:
+# This is the grafana secret key
+grafana_secret_key:
 
 # AZ(s) to deploy to (as defined in the Director configuration)
 deploy_azs: [europe-west1-d]
