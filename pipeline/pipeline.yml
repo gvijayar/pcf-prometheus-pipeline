@@ -13,7 +13,7 @@ resources:
 - name: pcf-prometheus-pipeline
   type: git
   source:
-    uri: https://github.com/pivotal-cf/pcf-prometheus-pipeline.git
+    uri: https://github.com/gvijayar/pcf-prometheus-pipeline.git
     branch: master
 - name: prometheus-release-git
   type: git
@@ -107,7 +107,7 @@ jobs:
         grafana_password: ((grafana_admin_password))
         grafana_secret_key: ((grafana_secret_key))
         prometheus_password: ((prometheus_admin_password))
-        postgres_grafana_password: ((prometheus_grafana_password))
+        postgres_grafana_password: ((postgres_grafana_password))
         alertmanager_password: ((alertmanager_password))
         alertmanager_mesh_password: ((alertmanager_mesh_password))
         vm_type_micro: ((deploy_vm_type_micro))
